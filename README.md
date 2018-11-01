@@ -1,4 +1,4 @@
-<p align="center"><a href="#" title="Oxlip"><img src="/Oxlip.png" alt="Oxlip"></a></p>
+<p align="center"><a href="#" title="Oxlip"><img src="/Oxlip.png" style="width:200px;" alt="Oxlip"></a></p>
 
 # Oxlip
 
