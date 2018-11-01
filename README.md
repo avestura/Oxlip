@@ -12,4 +12,4 @@ Because this supposed to be my homework for "Internet Engineering" course of Uni
 
 ## Where did you find that logo?
 
-I created that by my self using Gravit Designer. You can use it for your own projects tho.
+I created that by myself using Gravit Designer. You can use it for your own projects tho.
