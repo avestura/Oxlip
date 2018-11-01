@@ -2,7 +2,7 @@
 
 # Oxlip
 
-Another failing poor attemp to create another frontend layout framework
+A poor failing attemp to create another frontend layout framework
 
 ## Why anothor framework?
 
