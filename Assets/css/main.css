@@ -5,4 +5,17 @@ body{
 
 .oxlip-title{
     color: #898326;
+    text-align: center;
+}
+.fw-logo{
+    width: 256px;
+    height: 256px;
+}
+.badge{}
+
+@media all and (max-width: 600px){
+    .fw-logo{
+        width: 70%;
+        height: 70%;
+    }
 }
