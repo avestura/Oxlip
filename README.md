@@ -12,7 +12,7 @@ A poor failing attemp to create another frontend layout framework
 
 You may ask if it is another poor attemp, then why doing this?
 
-Because this supposed to be my homework for "Internet Engineering" course of University of Guilan, and they don't accept using Bootstrap or anyother front-end framework. That's why.
+Because this supposed to be my homework for "Internet Engineering" course of University of Guilan, and we should not use Bootstrap or anyother front-end framework.
 
 ## Where did you find that logo?
 
