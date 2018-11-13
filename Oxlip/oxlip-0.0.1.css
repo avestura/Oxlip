@@ -1,20 +1,65 @@
 /* Oxlip Flex */
 .oxlip-container{
     display: flex;
+    align-content: space-around;
+    margin: 10;
 }
 
-.oxlip-item {
-    flex-grow: 1;
-}
+.oxlip-item {flex-grow: 1;}
+.oxlip-item-2 {flex-grow: 2;}
+.oxlip-item-3 {flex-grow: 3;}
+.oxlip-item-4 {flex-grow: 4;}
+.oxlip-item-5 {flex-grow: 5;}
+.oxlip-item-6 {flex-grow: 6;}
+.oxlip-item-7 {flex-grow: 7;}
+.oxlip-item-8 {flex-grow: 8;}
+.oxlip-item-9 {flex-grow: 9;}
+.oxlip-item-10 {flex-grow: 10;}
 
 .oxlip-navbar{
     display: flex;
+    background: #e1e1e1;
+    margin: -10px -10px 20px -10px;
 }
+.oxlip-navbar a {
+    padding: 5px 10px;
+    margin: 7px;
+    text-decoration: none;
+    color: #3f3f3f;
+    transition-duration: 200ms;
+}
+.oxlip-navbar a:hover{
+    background: #e7d163;
+    color: #474702;
+}
+
+.oxlip-space-between > *{
+    margin: 0 5px;
+}
+.oxlip-vertical {
+    flex-direction: column;
+}
+.oxlip-container.oxlip-center{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.oxlip-nomargin{
+    margin: 0;
+}
+.oxlip-nopadding{
+    padding: 0;
+}
+.oxlip-thin{
+    margin: 0;
+    padding:0;
+}
+
 
 /* Oxlip features */
 .oxlip-document {
     justify-content: center;
-    background: white;
+    background: #f1f1f1;
     box-shadow: 2px 2px 5px #9d9d9d;
     border: 2px solid #e3e3e3;
     width: 900px;
@@ -23,7 +68,6 @@
 }
 
 @media all and (max-width: 900px){
-    
     .oxlip-document {
         width: 100%;
         margin: 10px;
