@@ -30,11 +30,13 @@ form input{
     padding: 10px;
 }
 
-
+#edu #edu-items .oxlip-recipe {
+    padding: 20px;
+}
 
 @media all and (max-width: 600px){
     .fw-logo{
         width: 70%;
-        height: 70%;
+        height: auto;
     }
 }
