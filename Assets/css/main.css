@@ -16,6 +16,6 @@ body{
 @media all and (max-width: 600px){
     .fw-logo{
         width: 70%;
-        height: 70%;
+        height: auto;
     }
 }
