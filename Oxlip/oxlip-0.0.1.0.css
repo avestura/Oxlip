@@ -8,8 +8,10 @@ body{
     align-content: space-around;
     margin: 10;
     flex-wrap: wrap;
+    flex-basis: 1;
 }
 
+.oxlip-frigid {flex-grow: 0;}
 .oxlip-item {flex-grow: 1;}
 .oxlip-item-2 {flex-grow: 2;}
 .oxlip-item-3 {flex-grow: 3;}
@@ -60,6 +62,7 @@ body{
 }
 
 
+
 /* Oxlip features */
 .oxlip-document {
     justify-content: center;
@@ -91,6 +94,10 @@ a.oxlip-button:hover {
     color: green;
     background: #76ec97;
     border: 1px solid #25cb25;
+}
+
+.oxlip-recipe {
+    line-height: 15px;
 }
 
 @media screen and (max-width: 900px){
