@@ -1,0 +1,40 @@
+body{
+    font-family: IRANSans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: repeat #556080 url('../../Assets/gray-floral.png');
+}
+
+.oxlip-title{
+    color: #898326;
+    text-align: center;
+}
+.fw-logo{
+    width: 256px;
+    height: 256px;
+}
+.badge{
+    width: 25px;
+    height: 25px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    color: #d7d7d7;
+    font-size: 20px;
+    background: #0009;
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+@media all and (max-width: 600px){
+    .fw-logo{
+        width: 70%;
+        height: 70%;
+    }
+}
