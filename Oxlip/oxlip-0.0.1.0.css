@@ -79,15 +79,28 @@ a:hover {
     color: #053045;
 }
 
-@media all and (max-width: 900px){
+a.oxlip-button {
+    padding: 5px 40px;
+    background: #e1e1e1;
+    border: 1px solid #b4b4b4;
+    text-align: center;
+    color: #555;
+    transition-duration: 200ms; 
+}
+a.oxlip-button:hover {
+    color: green;
+    background: #76ec97;
+    border: 1px solid #25cb25;
+}
+
+@media screen and (max-width: 900px){
     .oxlip-document {
         width: 100%;
         margin: 0 0 10px 0;
     }
-
 }
 
-@media all and (max-width: 600px){
+@media screen and (max-width: 600px){
     .oxlip-navbar{
         flex-direction: column;
         
